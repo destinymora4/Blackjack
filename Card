@@ -1,0 +1,29 @@
+class Card {
+  int card;
+  Suit suit;
+  int value;
+  
+  public: 
+    // Four total constructors:
+    
+    // Default constructor:
+    Card () {
+      this->card = 'A';
+      this->suit = 0;
+      this->value = 1;
+    }
+    
+    Card (int card, Suit suit, int value) {
+    
+    
+    }
+    
+    Card (int card, Suit suit) {
+    
+    }
+    
+    Card (Suit suit, int value);
+
+
+
+};
